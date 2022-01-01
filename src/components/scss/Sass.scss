@@ -1,0 +1,10 @@
+@import "config";
+@import "paragraph";
+@import "body";
+
+.entire {
+  @include set-background($primarycolor);
+  margin: 0;
+  padding: 0;
+  background-color: teal;
+}

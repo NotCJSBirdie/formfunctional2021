@@ -1,0 +1,21 @@
+$font-stack: Arial;
+$lightcolor: #f4f4f4;
+$textcolor: #000000;
+$primarycolor: skyblue;
+
+//set text color to white function
+
+@function set-text-color($color) {
+  @if (lightness($color) >70) {
+    @return black;
+  } @else {
+    @return white;
+  }
+}
+
+//adding a mixin (setting the background color and the text color)
+
+@mixin set-background($color) {
+  background-color: $color;
+  color: set-text-color($color);
+}

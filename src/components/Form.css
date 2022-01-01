@@ -1,16 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
 
-#body {
-  background-image: url("./components/assets/darkbluegradient.jpg");
-}
-
-#label {
+#button {
   font-family: "Alfa Slab One", cursive;
   text-shadow: 4px 4px black;
-  transform: scale(2.5) rotate(-90deg);
+  box-shadow: 4px 4px black;
 }
 
-#marquee {
+#tasktracker {
   font-family: "Alfa Slab One", cursive;
   text-shadow: 4px 4px black;
 }
