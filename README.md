@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# FORM FUNCTIONAL 2021
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hello everyone! This project was inspired by the Traversy Media React Crash Course 2021!
 
-## Available Scripts
+Basically, what I did was that I took the concept and made a unique revision to the entire project. Instead of just using css, like plain vanilla css, I installed Tailwind CSS into the project. Also, I took interest in a CSS Preprocessor called Sass so yeah!
 
-In the project directory, you can run:
+# How SASS works
 
-### `npm start`
+What I did at the time was watch the entire Sass Crash Course by the Traversy Media Youtube Channel and it was awesome.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Basically Sass is just an extension of the Vanilla CSS that we all love. But the kicker is, there must be a compiler that we should use.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+There are two options:
 
-### `npm test`
+1.  Using the NPM CLI which is you have to type every single time whenever you want to compile a sass file.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2.  Using an extension in Microsoft Visual Studio Code called Live Sass Compiler wherein just in a click, you are automatically "watching your .scss file" to a path or a directory.
 
-### `npm run build`
+# IMPORTANT SASS THINGS YOU SHOULD KNOW
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. In Sass, you can create variables and use them in code.
+   For example using the dollar symbol ($) you can create a variable
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. In Sass, you can nest inside parent elements. For example if there are multiple child elements inside of a parent element, you can already style these elements inside of a styled parent element.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. In Sass, there is a concept called "partials". Meaning you could break up your sass styling into different files and it would still produce the same result. Just use the @import rule in css and put an underscore (\_)before the filename and you are good to go! :)
 
-### `npm run eject`
+4. In Sass, you can also have extensions and shared properties by using the percentage symbol and using the @extend rule in css. So, you do not need to repeat the same iteration again and again, just define the shared property and use it on different classes or components.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+5. In Sass, you can also create functions wherein you can create if and else statements whenever you want to define a condition (e.g. display a style in light mode or dark mode). Also, you can create mixins because you can just use the @include rule in css and just @include anymixin() function that you defined.
+# formfunctional2021
